@@ -35,7 +35,7 @@ jobs:
           make bacon -j8
 
       - name: Upload ROM
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: lineageos-15.1-hammerhead
           path: ~/rom/out/target/product/hammerhead/*.zip
